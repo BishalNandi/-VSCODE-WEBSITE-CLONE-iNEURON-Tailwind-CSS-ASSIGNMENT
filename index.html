@@ -9,47 +9,74 @@
 </head>
 <body>
 
-    <nav class="flex py-3 border-black bg-gray-700 text-white fw-4 text-2xl gap-x-4 justify-center">
+    <nav class="flex py-3 border-black bg-gray-800 text-white fw-4 text-2xl gap-x-4 justify-center">
 
-        <div class="flex"><img src="./images/apple-touch-icon.png" class="h-10" alt="" srcset=""></div>
+        <div class="flex"><img src="./images/apple-touch-icon.png" class="h-8 mt-1" alt="" srcset=""></div>
 
-    <ul class="flex gap-x-10 text-gray-200"> 
+    <ul class="flex gap-x-8 text-gray-200"> 
             
-         <li><a href="#" class="text-3xl text-white">Visual Studio Code</a></li>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Updates</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">API</a></li>
-        <li><a href="#">Extensions</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Learn</a></li>
+         <li><a href="#" class="text-2xl text-white ">Visual Studio Code</a></li>
+        <li><a href="#" class="text-lg text-gray-400">Docs</a></li>
+        <li><a href="#" class="text-lg text-gray-400">Updates</a></li>
+        <li><a href="#" class="text-lg text-gray-400">Blog</a></li>
+        <li><a href="#" class="text-lg text-gray-400">API</a></li>
+        <li><a href="#" class="text-xl text-gray-400">Extensions</a></li>
+        <li><a href="#" class="text-lg text-gray-400">FAQ</a></li>
+        <li><a href="#" class="text-lg text-gray-400">Learn</a></li>
     </ul>
     
 
-    <div class="flex ml-40"><img src="./images/search.svg" class="h-6 mt-2" alt="" srcset=""></div>
+    <div class="flex ml-40"><img src="./images/searchicon.jpg" class="h-5 mt-2 " alt="" srcset="">
+    </div>
 
-    <button type="submit" class="flex bg-blue-200"><img src="./images/download_blue.svg" class="h-10" alt="">  Download</button>
+    <!-- --------------NEED TO WORK------------------------ -->
+
+    <button type="submit" class="flex bg-blue-200 "><img src="./images/download_blue.svg" class="h-10" alt="">  Download</button>
+
+    <!-- -------------------------------------- -->
 
 </nav>
 
-<nav class="bg-black text-white text-center h-10 text-lg">
+<div class="bg-gray-900 text-white flex  justify-center h-12 text-lg text-gray-400 ">
 
-    <p>Version 1.7.3 is now available! Read about the new features and fixes from October.</p>
-</nav>
+    <p class="relative mt-2"> <span class="text-blue-400">Version 1.7.3</span> is now available! Read about the new features and fixes from October.</p>
+</div>
 
 <main>
 
-    <section class="flex bg-black text-white h-[630px]">
-        <div>
-        <h1>Code editing <br> Redefined</h1>
-        <p>Free. Built on open source. Runs everywhere.</p>
-        <button>Download for Windows <br> Stable Build</button> 
-        <p>Web, Insiders edition, or other platforms</p>
-        <p>By using VS Code, you agree to its <br> license and privacy statement.</p>
-        </div>
+    <section class="flex bg-gray-800 text-white relative">
+        <div class=" mt-20 ">
+        <h1 class="text-6xl absolute ml-28">Code editing. <br> <span class="ml-6 font-semibold ">Redefined.</span> </h1>
+
+
+<!-- ------------------------------- -->
+            <!-- HOW TO APPROACH THIS KIND OF TASK -->
 
         <div class="">
-            <img src="./images/editor.png" alt="" srcset="" class="ml-[190px]">
+
+        <p class="mt-36 ml-28 text-xl">Free. Built on open source. Runs <span class="">everywhere.</span> </p>
+        
+    </div>
+
+    <!-- -------------------------------- -->
+
+        <button class="relative bg-blue-700 mt-4 mb-4 p-2 pl-10 pr-10 ml-36">Download for Windows <br> Stable Build</button> 
+
+        <div class="text-blue-500 bg-gray-900 rounded-xl w-[310px] mt-4 ml-28 p-3"> Web, Insiders edition, or other platforms
+
+        </div>
+        
+
+        <div>
+
+           <p class="text-center mt-6 text-gray-400 text-sm">By using VS Code, you agree to its <br> <span class="text-blue-600">license and privacy statement.</span> 
+           </p> 
+        </div>
+
+        </div>
+
+        <div class="mt-14 ml-4">
+            <img src="./images/editor.png" alt="" srcset="" class="ml-[10px]">
         </div>
 
     </section>
